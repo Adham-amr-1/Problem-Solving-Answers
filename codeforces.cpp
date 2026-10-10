@@ -1,0 +1,218 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main(void)
+{
+}
+
+// 4A WaterMelon
+// int w;
+// cin >> w;
+// if(w > 2 && w % 2 == 0)
+//     cout << "YES\n";
+// else
+//     cout << "NO\n";
+// return 0;
+
+// 71A Way Too Long Words
+// int n;
+// string s;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> s;
+//     if(s.size() > 10)
+//         cout << s[0] << s.size() - 2 << s[s.size() - 1] << endl;
+//     else
+//         cout << s << endl;
+// }
+
+// 231A Team
+// int n, n1, n2, n3, count = 0;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> n1 >> n2 >> n3;
+//     if(n1 + n2 + n3 >= 2)
+//     {
+//         count++;
+//     }
+// }
+// cout << count << endl;
+
+// 282A Bit++
+// int n, count = 0;
+// string s;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> s;
+//     if(s == "X++" || s == "++X")
+//     {
+//         count++;
+//     }
+//     else if(s == "X--" || s == "--X")
+//     {
+//         count--;
+//     }
+// }
+// cout << count << endl;
+
+// 158A Next Round
+// vector<int> nums;
+// int n, k, count = 0, reference;
+// cin >> n >> k;
+// nums.resize(n);
+// for (int i = 0; i < n; i++)
+// {
+//     cin >> nums[i];
+//     if (i == k - 1)
+//     {
+//         reference = nums[i];
+//     }
+// }
+// for (int i = 0; i < n; i++)
+// {
+//     if (nums[i] >= reference && nums[i] > 0)
+//     {
+//         count++;
+//     }
+// }
+// cout << count << endl;
+
+// 50A Domino piling
+// int m, n;
+// cin >> m >> n;
+// cout << m * n / 2 << endl;
+
+// 263A Beautiful Matrix
+// int arr[5][5], x, y;
+// for (int i = 0; i < 5; i++)
+// {
+//     for (int j = 0; j < 5; j++)
+//     {
+//         cin >> arr[i][j];
+//         if (arr[i][j] == 1)
+//         {
+//             x = i;
+//             y = j;
+//         }
+//     }
+// }
+// cout << abs(x - 2) + abs(y - 2) << endl;
+
+// 1A Theatre Square
+// long long n, m, a;
+// cin >> n >> m >> a;
+// cout << (n / a + (n % a != 0)) * ((m / a) + (m % a != 0)) << endl;
+
+// 112A Petya and Strings
+// string s1, s2;
+// cin >> s1 >> s2;
+// for (int i = 0; i < s1.size(); i++)
+// {
+//     s1[i] = tolower(s1[i]);
+//     s2[i] = tolower(s2[i]);
+// }
+// cout << (s1 < s2 ? -1 : (s1 > s2 ? 1 : 0)) << endl;
+
+// 236A Boy or Girl
+// string s;
+// cin >> s;
+// sort(s.begin(), s.end());
+// s.erase(unique(s.begin(), s.end()), s.end());
+// cout << (s.size() % 2 == 0 ? "CHAT WITH HER!" : "IGNORE HIM!") << endl;
+
+// 339A Helpful Maths
+// string s, num, temp;
+// cin >> s;
+// if (s.size() == 1)
+// {
+//     cout << s << endl;
+// }
+// else
+// {
+//     for (int i = 0; i < s.size(); i += 2)
+//     {
+//         num.append(s.substr(i, 1));
+//     }
+//     sort(num.begin(), num.end());
+//     for (int i = 0; i < num.size(); i++)
+//     {
+//         cout << num[i];
+//         if (i != num.size() - 1)
+//         {
+//             cout << "+";
+//         }
+//     }
+// }
+
+// 281A Word Capitalization
+// string s;
+// cin >> s;
+// s[0] = (s[0] >= 'a' && s[0] <= 'z') ? s[0] - 32 : s[0];
+// cout << s << endl;
+
+// 791A Bear and Big Brother
+// int a, b, count = 0;
+// cin >> a >> b;
+// while (a <= b)
+// {
+//     a *= 3;
+//     b *= 2;
+//     count++;
+// }
+// cout << count << endl;
+
+// 617A Elephant
+// int x, count = 0;
+// cin >> x;
+// if (x > 5)
+// {
+//     count = x / 5;
+//     if (x % 5 != 0)
+//     {
+//         count++;
+//     }
+// }
+// else
+// {
+//     count = 1;
+// }
+// cout << count << endl;
+
+// 546A Soldier and Bananas
+// long long w, k, n, money = 0;
+// cin >> k >> n >> w;
+// for (int i = 1; i <= w; i++)
+// {
+//     money += k * i;
+// }
+// cout << (money > n ? money - n : 0) << endl;
+
+// 59A Word
+// string s;
+// int upper = 0, lower = 0;
+// cin >> s;
+// for (int i = 0; i < s.size(); i++)
+// {
+//     if (s[i] >= 'A' && s[i] <= 'Z')
+//     {
+//         upper++;
+//     }
+//     else
+//     {
+//         lower++;
+//     }
+// }
+// if (upper > lower)
+// {
+//     transform(s.begin(), s.end(), s.begin(), ::toupper);
+// }
+// else
+// {
+//     transform(s.begin(), s.end(), s.begin(), ::tolower);
+// }
+// cout << s << endl;
