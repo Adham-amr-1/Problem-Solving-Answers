@@ -183,6 +183,20 @@ int main(void)
 // }
 // cout << count << endl;
 
+// 266A Stones on the Table
+// int n, count = 0;
+// string s;
+// cin >> n;
+// cin >> s;
+// for (int i = 0; i < n - 1; i++)
+// {
+//     if (s[i] == s[i + 1])
+//     {
+//         count++;
+//     }
+// }
+// cout << count << endl;
+
 // 546A Soldier and Bananas
 // long long w, k, n, money = 0;
 // cin >> k >> n >> w;
