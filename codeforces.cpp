@@ -368,6 +368,17 @@ int main(void)
 //     }
 // }
 
+// 116A Tram
+// int n, cap = 0, a, b, calc = 0;
+//  cin >> n;
+//  while(n--)
+//  {
+//      cin >> a >> b;
+//      calc = abs(calc + b - a);
+//      cap = max(cap, calc);
+//  }
+//  cout << cap;
+
  // 1030A In Search of an Easy Problem
 // int n, a;
 // bool flag = true;
