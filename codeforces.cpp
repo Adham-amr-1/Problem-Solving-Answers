@@ -265,6 +265,26 @@ int main(void)
 // }
 // cout << n;
 
+// 110A Nearly Lucky Number
+// long long n;
+// cin >> n;
+
+// int cnt = 0;
+
+// while (n > 0)
+// {
+//     int digit = n % 10;
+
+//     if (digit == 4 || digit == 7)
+//         cnt++;
+
+//     n /= 10;
+// }
+
+// if (cnt == 4 || cnt == 7)
+//     cout << "YES";
+// else
+//     cout << "NO";
 
 
 
