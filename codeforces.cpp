@@ -431,6 +431,10 @@ int main(void)
 // }
 // cout << rooms;
 
-
+//486A Calculating Function
+// signed long long n, calc;
+// cin >> n;
+// calc = (n % 2 == 0)? n / 2: -1 * ((n / 2) + 1);
+// cout << calc;
 
 
