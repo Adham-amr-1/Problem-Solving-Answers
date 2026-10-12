@@ -368,7 +368,27 @@ int main(void)
 //     }
 // }
 
-
+ // 1030A In Search of an Easy Problem
+// int n, a;
+// bool flag = true;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> a;
+//     if (a == 1)
+//     {
+//         flag = false;
+//         break;
+//     }
+// }
+// if(flag)
+// {
+//     cout << "EASY";
+// }
+// else
+// {
+//     cout << "HARD";
+// }
 
 
 
