@@ -19,7 +19,7 @@ int main(void)
 
 // 71A Way Too Long Words
 // int n;
-// string s;
+// string s; 
 // cin >> n;
 // while(n--)
 // {
