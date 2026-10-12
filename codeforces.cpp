@@ -401,5 +401,20 @@ int main(void)
 //     cout << "HARD";
 // }
 
-
+// 266B Queue at the School
+// int n, t;
+// string s;
+// cin >> n >> t >> s;
+//  while(t--)
+//  {
+//      for(int j = 0; j < n - 1; j ++)
+//      {
+//          if((s[j] == 'B') && (s[j+1] == 'G'))
+//          {
+//              swap(s[j], s[j + 1]);
+//              j++;
+//          }  
+//      }
+//  }
+// cout << s;
 
