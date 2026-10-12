@@ -308,33 +308,47 @@ int main(void)
 //     cout << "Friendship";
 // }
 
-    // 41A Translation
-    // string s, t;
-    // bool flag = true;
-    // cin >> s >> t;
+// 41A Translation
+// string s, t;
+// bool flag = true;
+// cin >> s >> t;
+// if(s.size() != t.size())
+// {
+//     flag = false;
+// }
+// for(int i = 0, j = t.size() - 1; i < s.size() && flag == true; i++, j--)
+// {
+//     if(s[i] != t[j])
+//     {
+//         flag = false;
+//         break;
+//     }
+// }
+// if(flag)
+// {
+//     cout << "YES";
+// }
+// else
+// {
+//     cout << "NO";
+// }
 
-    // if(s.size() != t.size())
-    // {
-    //     flag = false;
-    // }
-    // for(int i = 0, j = t.size() - 1; i < s.size() && flag == true; i++, j--)
-    // {
-    //     if(s[i] != t[j])
-    //     {
-    //         flag = false;
-    //         break;
-    //     }
-    // }
-    // if(flag)
-    // {
-    //     cout << "YES";
-    // }
-    // else
-    // {
-    //     cout << "NO";
-    // }
-
-
+// 677A Vanya and Fence
+// int n, h, w = 0, a;
+// cin >> n >> h;
+// while(n--)
+// {
+//     cin >> a;
+//     if(a <= h)
+//     {
+//         w += 1;
+//     }
+//     else
+//     {
+//         w += 2;
+//     }
+// }
+// cout << w;
 
 
 
