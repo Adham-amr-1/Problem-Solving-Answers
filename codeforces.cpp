@@ -418,3 +418,19 @@ int main(void)
 //  }
 // cout << s;
 
+// 467A George and Accommodation
+// int n, p, q, rooms = 0;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> p >> q;
+//     if(q >= p + 2)
+//     {
+//         rooms++;
+//     }
+// }
+// cout << rooms;
+
+
+
+
