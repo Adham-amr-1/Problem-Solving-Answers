@@ -308,6 +308,37 @@ int main(void)
 //     cout << "Friendship";
 // }
 
+    // 41A Translation
+    // string s, t;
+    // bool flag = true;
+    // cin >> s >> t;
+
+    // if(s.size() != t.size())
+    // {
+    //     flag = false;
+    // }
+    // for(int i = 0, j = t.size() - 1; i < s.size() && flag == true; i++, j--)
+    // {
+    //     if(s[i] != t[j])
+    //     {
+    //         flag = false;
+    //         break;
+    //     }
+    // }
+    // if(flag)
+    // {
+    //     cout << "YES";
+    // }
+    // else
+    // {
+    //     cout << "NO";
+    // }
+
+
+
+
+
+
 
 
 
