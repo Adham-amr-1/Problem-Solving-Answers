@@ -286,6 +286,28 @@ int main(void)
 // else
 //     cout << "NO";
 
+// 734A Anton and Danik
+// int n, A = 0, D = 0;
+// string s;
+// cin >> n;
+// cin >> s;
+// for(int i = 0; i < n; i++)
+// {
+//     (s[i] == 'A') ? A++ : D++;
+// }
+// if(A > D)
+// {
+//     cout << "Anton";
+// }
+// else if (A < D)
+// {
+//     cout << "Danik";
+// }
+// else
+// {
+//     cout << "Friendship";
+// }
+
 
 
 
