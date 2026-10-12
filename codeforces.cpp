@@ -437,4 +437,21 @@ int main(void)
 // calc = (n % 2 == 0)? n / 2: -1 * ((n / 2) + 1);
 // cout << calc;
 
+// 344A Magnets
+// int n, magnet, groups = 0, prev = -1;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> magnet;
+
+//     if (magnet != prev)
+//         groups++;
+
+//     prev = magnet;
+// }
+// cout<< groups;
+
+
+
+
 
