@@ -475,3 +475,20 @@ int main(void)
 //     cout << out[i] << (i == n ? "\n" : " ");
 // }
 
+// 228A Is your horseshoe on the other hoof?
+// long long arr[4], count = 0;
+// for(int i = 0; i < 4; i++)
+//     cin >> arr[i];
+// sort(arr, arr + 4);
+// for(int i = 1; i < 4; i++)
+// {
+//     if(arr[i] == arr[i - 1])
+//         count++;
+// }
+// cout << count;
+// return 0;
+
+
+
+
+
