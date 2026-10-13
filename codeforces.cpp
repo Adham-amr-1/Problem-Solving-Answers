@@ -488,6 +488,22 @@ int main(void)
 // cout << count;
 // return 0;
 
+// 1328A Division Problem
+// long long t, n, a, b, count = 0;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> a >> b;
+//     cout << (b - a % b) % b << endl;
+// }
+
+
+
+
+
+
+
+
 
 
 
