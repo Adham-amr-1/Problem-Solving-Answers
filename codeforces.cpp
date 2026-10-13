@@ -443,15 +443,23 @@ int main(void)
 // while(n--)
 // {
 //     cin >> magnet;
-
 //     if (magnet != prev)
 //         groups++;
-
 //     prev = magnet;
 // }
 // cout<< groups;
 
-
+//200B Drinks
+// double sum = 0, in;
+// int n, a;
+// cin >> n;
+// a = n;
+// while(n--)
+// {
+//     cin >> in;
+//     sum += in;
+// }
+// cout << fixed << setprecision(12) << sum / a;
 
 
 
