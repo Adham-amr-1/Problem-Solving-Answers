@@ -461,5 +461,17 @@ int main(void)
 // }
 // cout << fixed << setprecision(12) << sum / a;
 
-
+// 136A Presents
+// int n;
+// cin >> n;
+// vector<int> p(n), out(n + 1);
+// for (int i = 0; i < n; i++)
+// {
+//     cin >> p[i];
+//     out[p[i]] = i + 1;
+// }
+// for (int i = 1; i <= n; i++)
+// {
+//     cout << out[i] << (i == n ? "\n" : " ");
+// }
 
