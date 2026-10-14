@@ -497,11 +497,104 @@ int main(void)
 //     cout << (b - a % b) % b << endl;
 // }
 
+// 705A Hulk
+// int n;
+// cin >> n;
+// for(int i = 1; i <= n; i++)
+// {
+//     cout << (i % 2 ? "I hate " : "I love ");
+//     cout << (i == n ? "it" : "that ");
+// }
 
+// 720A Pangram
+// int n;
+// string s;
+// bool ss[26] = {false};
+// cin >> n >> s;
+// if (n < 26)
+// {
+//     cout << "NO";
+//     return 0;
+// }
+// else
+// {
+//     for (int i = 0; i < n; i++) 
+//     {
+//         char c = tolower(s[i]);
+//         ss[c - 'a'] = true;
+//     }
+//     for (int i = 0; i < 26; i++) 
+//     {
+//         if (!ss[i]) 
+//         {
+//             cout << "NO";
+//             return 0;
+//         }
+//     }
+// }
+// cout << "YES";
 
+// 144A Arrival of the General
+// int n, lowindex = 0, highindex = 0, max = 0, min = 999999999;
+// cin >> n;
+// vector <int> a(n);
+// for(int i = 0; i < n; i++)
+// {
+//     cin >> a[i]; 
+// }
+// for (int i = 0; i < n; i++) {
+//     if (a[i] > max) {
+//         max = a[i];
+//         highindex = i;
+//     }
+//     if (a[i] <= min) {
+//         min = a[i];
+//         lowindex = i;
+//     }
+// }
+// if(highindex < lowindex)
+// {
+//     cout << highindex + n - lowindex - 1;
+// }
+// else
+// {
+//     cout << highindex + n - lowindex - 2;
+// }
 
+//469A I Wanna Be the Guy
+// int n, p, q, x;
+// cin >> n;
+// vector <bool> levels(n, false);
+// cin >> p;
+// for(int i = 0; i < p; i++)
+// {
+//     cin >> x;
+//     levels[x - 1] = true;
+// }
+// cin >> q;
+// for(int i = 0; i < q; i++)
+// {
+//     cin >> x;
+//     levels[x - 1] = true;
+// }
+// if(all_of(levels.begin(), levels.end(), [](bool b) { return b; }))
+// {
+//     cout << "I become the guy.";
+// }
+// else
+// {
+//     cout << "Oh, my keyboard!";
+// }
 
-
+//996A Hit the Lottery
+// int n, count = 0;
+// int coins[] = {100, 20, 10, 5, 1};
+// cin >> n;
+// for (int coin : coins) {
+//     count += n / coin;
+//     n %= coin;
+// }
+// cout << count;
 
 
 
