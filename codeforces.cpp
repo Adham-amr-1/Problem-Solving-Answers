@@ -5,7 +5,6 @@ using namespace std;
 
 int main(void)
 {
-
 }
 
 // 4A WaterMelon
@@ -19,7 +18,7 @@ int main(void)
 
 // 71A Way Too Long Words
 // int n;
-// string s; 
+// string s;
 // cin >> n;
 // while(n--)
 // {
@@ -268,19 +267,14 @@ int main(void)
 // 110A Nearly Lucky Number
 // long long n;
 // cin >> n;
-
 // int cnt = 0;
-
 // while (n > 0)
 // {
 //     int digit = n % 10;
-
 //     if (digit == 4 || digit == 7)
 //         cnt++;
-
 //     n /= 10;
 // }
-
 // if (cnt == 4 || cnt == 7)
 //     cout << "YES";
 // else
@@ -379,7 +373,7 @@ int main(void)
 //  }
 //  cout << cap;
 
- // 1030A In Search of an Easy Problem
+// 1030A In Search of an Easy Problem
 // int n, a;
 // bool flag = true;
 // cin >> n;
@@ -413,7 +407,7 @@ int main(void)
 //          {
 //              swap(s[j], s[j + 1]);
 //              j++;
-//          }  
+//          }
 //      }
 //  }
 // cout << s;
@@ -431,11 +425,11 @@ int main(void)
 // }
 // cout << rooms;
 
-//486A Calculating Function
-// signed long long n, calc;
-// cin >> n;
-// calc = (n % 2 == 0)? n / 2: -1 * ((n / 2) + 1);
-// cout << calc;
+// 486A Calculating Function
+//  signed long long n, calc;
+//  cin >> n;
+//  calc = (n % 2 == 0)? n / 2: -1 * ((n / 2) + 1);
+//  cout << calc;
 
 // 344A Magnets
 // int n, magnet, groups = 0, prev = -1;
@@ -449,17 +443,17 @@ int main(void)
 // }
 // cout<< groups;
 
-//200B Drinks
-// double sum = 0, in;
-// int n, a;
-// cin >> n;
-// a = n;
-// while(n--)
-// {
-//     cin >> in;
-//     sum += in;
-// }
-// cout << fixed << setprecision(12) << sum / a;
+// 200B Drinks
+//  double sum = 0, in;
+//  int n, a;
+//  cin >> n;
+//  a = n;
+//  while(n--)
+//  {
+//      cin >> in;
+//      sum += in;
+//  }
+//  cout << fixed << setprecision(12) << sum / a;
 
 // 136A Presents
 // int n;
@@ -518,14 +512,14 @@ int main(void)
 // }
 // else
 // {
-//     for (int i = 0; i < n; i++) 
+//     for (int i = 0; i < n; i++)
 //     {
 //         char c = tolower(s[i]);
 //         ss[c - 'a'] = true;
 //     }
-//     for (int i = 0; i < 26; i++) 
+//     for (int i = 0; i < 26; i++)
 //     {
-//         if (!ss[i]) 
+//         if (!ss[i])
 //         {
 //             cout << "NO";
 //             return 0;
@@ -540,7 +534,7 @@ int main(void)
 // vector <int> a(n);
 // for(int i = 0; i < n; i++)
 // {
-//     cin >> a[i]; 
+//     cin >> a[i];
 // }
 // for (int i = 0; i < n; i++) {
 //     if (a[i] > max) {
@@ -561,43 +555,37 @@ int main(void)
 //     cout << highindex + n - lowindex - 2;
 // }
 
-//469A I Wanna Be the Guy
-// int n, p, q, x;
-// cin >> n;
-// vector <bool> levels(n, false);
-// cin >> p;
-// for(int i = 0; i < p; i++)
-// {
-//     cin >> x;
-//     levels[x - 1] = true;
-// }
-// cin >> q;
-// for(int i = 0; i < q; i++)
-// {
-//     cin >> x;
-//     levels[x - 1] = true;
-// }
-// if(all_of(levels.begin(), levels.end(), [](bool b) { return b; }))
-// {
-//     cout << "I become the guy.";
-// }
-// else
-// {
-//     cout << "Oh, my keyboard!";
-// }
+// 469A I Wanna Be the Guy
+//  int n, p, q, x;
+//  cin >> n;
+//  vector <bool> levels(n, false);
+//  cin >> p;
+//  for(int i = 0; i < p; i++)
+//  {
+//      cin >> x;
+//      levels[x - 1] = true;
+//  }
+//  cin >> q;
+//  for(int i = 0; i < q; i++)
+//  {
+//      cin >> x;
+//      levels[x - 1] = true;
+//  }
+//  if(all_of(levels.begin(), levels.end(), [](bool b) { return b; }))
+//  {
+//      cout << "I become the guy.";
+//  }
+//  else
+//  {
+//      cout << "Oh, my keyboard!";
+//  }
 
-//996A Hit the Lottery
-// int n, count = 0;
-// int coins[] = {100, 20, 10, 5, 1};
-// cin >> n;
-// for (int coin : coins) {
-//     count += n / coin;
-//     n %= coin;
-// }
-// cout << count;
-
-
-
-
-
-
+// 996A Hit the Lottery
+//  int n, count = 0;
+//  int coins[] = {100, 20, 10, 5, 1};
+//  cin >> n;
+//  for (int coin : coins) {
+//      count += n / coin;
+//      n %= coin;
+//  }
+//  cout << count;
