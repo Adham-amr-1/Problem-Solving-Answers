@@ -640,6 +640,71 @@ int main(void)
 // }
 // cout << count;
 
+// 1742A Sum
+// int t, a, b, c;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> a >> b >> c;
+//     if(a == b + c || b == c + a || c == a + b)
+//     {
+//         cout << "YES" << endl;
+//     }
+//     else
+//     {
+//         cout << "NO" << endl;
+//     }
+// }
+
+ // 510A Fox And Snake
+// int n, m, count = 1;
+// cin >> n >> m;
+// for(int i = 0; i < n; i++)
+// {
+//     if (count == 0)
+//     {
+//         if(i % 2 == 1)
+//         {
+//             cout << "#" << string(m - 1, '.');
+//             count = 1;
+//         }
+//         else
+//         {
+//             cout << string(m, '#');
+//         }
+//     }
+//     else
+//     {
+//          if(i % 2 == 1 && count == 1)
+//         {
+//             cout << string(m - 1, '.') << '#';
+//             count = 0;
+//         }
+//         else
+//         {
+//             cout << string(m , '#');
+//         }
+//     }
+//     cout << endl;
+// }
+
+// 443A Anton and Letters
+// vector<bool> arr(26, false);
+// string s;
+// getline(cin, s);
+// for (char c : s)
+// {
+//     if (c >= 'a' && c <= 'z')
+//     {
+//         arr[c - 'a'] = true;
+//     }
+// }
+// cout << count(arr.begin(), arr.end(), true);
+
+
+
+
+
 
 
 
