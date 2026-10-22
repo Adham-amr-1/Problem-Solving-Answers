@@ -589,3 +589,70 @@ int main(void)
 //      n %= coin;
 //  }
 //  cout << count;
+
+// 61A Ultra-Fast Mathematician
+// string a, b;
+// cin >> a >> b;
+// for (int i = 0; i < a.size(); i++) 
+// {
+//    cout << (a[i] != b[i] ? '1' : '0');
+// }
+
+// 148A Insomnia cure
+// int k, l, m, n, d, count = 0;
+// cin >> k >> l >> m >> n >> d;
+// for(int i = 1; i <= d; i++)
+// {
+//    if(i % k == 0 || i % l == 0 || i % n == 0 || i % m == 0)
+//    {
+//        count ++;
+//    }
+// }
+// cout << count;
+
+// 785A Anton and Polyhedrons
+// long long n ,count = 0;
+// string s;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> s;
+//     if(s == "Tetrahedron")
+//     {
+//         count += 4;
+//     }
+//     else if (s == "Cube")
+//     {
+//         count += 6;
+//     }
+//     else if (s == "Octahedron")
+//     {
+//         count += 8;
+//     }
+//     else if (s == "Dodecahedron")
+//     {
+//         count += 12;
+//     }
+//     else if (s == "Icosahedron")
+//     {
+//         count += 20;
+//     }
+// }
+// cout << count;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
