@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <vector>
+#include <cmath>
 using namespace std;
 
 int main(void)
@@ -701,10 +703,51 @@ int main(void)
 // }
 // cout << count(arr.begin(), arr.end(), true);
 
+// 1352A Sum of Round Numbers
+// int t, n, place, digit;
+// vector<int> output;
+// cin >> t;
+// while (t--)
+// {
+//     place = 1;
+//     output.clear();
+//     cin >> n;
+//     while (n > 0)
+//     {
+//         if (n % 10 != 0)
+//         {
+//             output.push_back((n % 10) * place);
+//         }
+//         n /= 10;
+//         place *= 10;
+//     }
+//     cout << output.size() << endl;
+//     for (int i = output.size() - 1; i >= 0; i--)
+//     {
+//         cout << output[i] << " ";
+//     }
+//     cout << endl;
+// }
 
+// 1335A Candies and Two Sisters
+// long long t, n;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> n;
+//     cout << ((n % 2 == 0) ? llround(n / 2) - 1: llround(n / 2)) << endl ;
+// }
 
-
-
+// 1703A YES or YES?
+// int t;
+// string s;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> s;
+//     transform(s.begin(), s.end(), s.begin(), ::tolower);
+//     cout << ((s == "yes") ? "YES" : "NO") << endl;
+// }
 
 
 
