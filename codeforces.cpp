@@ -763,7 +763,13 @@ int main(void)
 // cin >> x1 >> x2 >> x3;
 // cout << max({x1, x2, x3}) - min({x1, x2, x3});
 
-
+//141A Amusing Joke
+// string s1, s2, s3, s4;
+// cin >> s1 >> s2 >> s3;
+// s4 = s1 + s2;
+// sort(s4.begin(), s4.end());
+// sort(s3.begin(), s3.end());
+// cout << ((s3 == s4) ? "YES" : "NO");
 
 
 
