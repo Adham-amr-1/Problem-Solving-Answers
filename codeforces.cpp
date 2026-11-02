@@ -771,7 +771,10 @@ int main(void)
 // sort(s3.begin(), s3.end());
 // cout << ((s3 == s4) ? "YES" : "NO");
 
-
+// 630A Again Twenty Five!
+// long long n;
+// cin >> n;
+// cout << 25;
 
 
 
