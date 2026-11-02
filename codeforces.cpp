@@ -749,9 +749,19 @@ int main(void)
 //     cout << ((s == "yes") ? "YES" : "NO") << endl;
 // }
 
+// 1899A Game with Integers
+// int t, n;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> n;
+//     cout << ((n % 3 == 0) ? "Second" : "First") << endl;
+// }
 
-
-
+// 723A The New Year: Meeting Friends
+// int x1, x2, x3;
+// cin >> x1 >> x2 >> x3;
+// cout << max({x1, x2, x3}) - min({x1, x2, x3});
 
 
 
