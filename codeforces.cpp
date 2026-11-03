@@ -824,7 +824,30 @@ int main(void)
 // }
 // cout << S << " " << D;
 
-
+// 1669A Division?
+// int n, num;
+// cin >> n;
+// while(n--)
+// {
+//     cin >> num;
+//     if(num <= 1399)
+//     {
+//         cout << "Division 4";
+//     }
+//     else if (num <= 1599)
+//     {
+//         cout << "Division 3";
+//     }
+//     else if (num <= 1899)
+//     {
+//         cout << "Division 2";
+//     }
+//     else
+//     {
+//         cout << "Division 1";
+//     }
+//     cout << endl;
+// }
 
 
 
