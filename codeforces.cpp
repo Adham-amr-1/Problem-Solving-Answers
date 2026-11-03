@@ -776,6 +776,61 @@ int main(void)
 // cin >> n;
 // cout << 25;
 
+// 427A - Police Recruits
+// int n, in, available = 0, untreated = 0;
+// cin >> n;
+// while (n--)
+// {
+//     cin >> in;
+//     if (in == -1)
+//     {
+//       (available > 0) ? available-- :  untreated++;
+//     }
+//     else
+//     {
+//         available += in;
+//     }
+// }
+// cout << untreated << '\n';
+
+// 151A Soft Drinking
+// int n, k, l, c, d, p, nl, np;
+// cin >> n >> k >> l >> c >> d >> p >> nl >> np;
+// cout << min({k * l / nl, c * d, p / np}) / n;
+
+// 381A Sereja and Dima
+// int n, S = 0, D = 0, c = 0;
+// cin >> n;
+// int t = n, s = 0, e = n - 1;
+// vector<int> cards(n);
+// for(int i = 0; i < n; i++)
+// {
+//     cin >> cards[i];
+// }
+// while(t--)
+// {
+//     if(cards[s] >= cards[e])
+//     {
+//         (c == 0) ? S += cards[s] : D += cards[s];
+//         s += 1;
+//         c = !c;
+//     }
+//     else
+//     {
+//         (c == 0) ? S += cards[e] : D += cards[e];
+//         e -= 1;
+//         c = !c;
+//     }
+// }
+// cout << S << " " << D;
+
+
+
+
+
+
+
+
 
 
 
