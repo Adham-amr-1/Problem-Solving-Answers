@@ -849,6 +849,47 @@ int main(void)
 //     cout << endl;
 // }
 
+// 1999A A+B Again?
+// int t, n;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> n;
+//     cout << n / 10 + n % 10 << endl;
+// }
+
+// 1807A Plus or Minus
+// int t, a, b, c;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> a >> b >> c;
+//     cout<< ((a + b == c)? "+" : "-") << endl;
+// }
+
+// 1692A - Marathon
+// int t, a, b[3], count = 0;
+// cin >> t;
+// while(t--)
+// {
+//     cin >> a >> b[0] >> b[1] >> b[2];
+//     for(int i = 0; i < 3; i++)
+//     {
+//         if(a < b[i])
+//         {
+//             count++;
+//         }
+//     }
+//     cout << count << endl;
+//     count = 0;
+// }
+
+
+
+
+
+
+
 
 
 
